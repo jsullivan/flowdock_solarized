@@ -1,0 +1,163 @@
+/* Solarized color palette
+base03:    #002b36;
+base02:    #073642;
+base01:    #586e75;
+base00:    #657b83;
+base0:     #839496;
+base1:     #93a1a1;
+base2:     #eee8d5;
+base3:     #fdf6e3;
+yellow:    #b58900;
+orange:    #cb4b16;
+red:       #dc322f;
+magenta:   #d33682;
+violet:    #6c71c4;
+blue:      #268bd2;
+cyan:      #2aa198;
+green:     #859900;
+*/
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ TOOLBAR
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.chat-toolbar,
+.inbox-toolbar,
+.message-form {
+  background-color: #586e75 !important;
+}
+
+.toolbar-button,
+#comment-upload-btn {
+  border-color: #93a1a1 !important;
+  color: #93a1a1 !important;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ GROUP CHAT
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.chat-message, .comment-message {
+  background-color: #073642 !important;
+  color: #eee8d5 !important;
+  border-color: #586e75 !important;
+}
+
+.chat-message-list.emphasize-me .me .message-author {
+  color: #d33682 !important;
+}
+
+.tag {
+  background-color: #d33682 !important;
+  color: #fff !important;
+  border: none !important;
+  border-color: none !important;
+}
+
+.chat-message.date-separator::before,
+.date-separator.comment-message::before,
+.date-separator.action-message::before,
+.date-separator.line-message::before,
+.date-separator.status-message::before,
+.date-separator.file-message::before,
+.date-separator.inbox-comment-message::before,
+.date-separator.thread-comment-message::before,
+.date-separator.inbox-file-comment-message::before {
+  color: #073642 !important;
+  background: #93a1a1 !important;
+  border-color: #073642 !important;
+  border-left-color: #073642 !important;
+}
+
+.thread-activity-message pre.formatted,
+.chat-message pre.formatted,
+.comment-message pre.formatted,
+.action-message pre.formatted,
+.line-message pre.formatted,
+.status-message pre.formatted,
+.file-message pre.formatted,
+.inbox-comment-message pre.formatted,
+.thread-comment-message pre.formatted,
+.inbox-file-comment-message pre.formatted,
+.mention-message pre.formatted,
+.inbox-message pre.formatted,
+.info-message pre.formatted,
+.error-message pre.formatted,
+.single-message pre.formatted {
+  background-color: #002b36 !important;
+  color: #fdf6e3 !important;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ ACTIVITY PANE
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.inbox-message {
+  background-color: #002b36 !important;
+  border-color: #657b83 !important;
+}
+
+.file-message {
+  background-color: #eee8d5 !important;
+}
+
+.headline {
+  color: #93a1a1;
+}
+
+.main-link-text,
+.inbox-external-link {
+  color: #268bd2;
+}
+
+.author-name,
+time.timestamp {
+  color: #657b83 !important;
+}
+
+.excerpt {
+  color: #839496 !important;
+}
+
+.action {
+  color: #b58900;
+}
+
+.comment-count {
+  background-color: #2aa198 !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+.inbox-panel,
+.single-view-content {
+  background-color: #657b83 !important;
+}
+
+.comment-form,
+.inbox-comment-message,
+.single-view-close-button,
+#single.title,
+div.title {
+  background-color: #657b83 !important;
+  border-color: #073642 !important;
+}
+
+.comment-form {
+  -webkit-box-shadow: 0 0px 0px none !important;
+  box-shadow: 0 0px 0px none !important;
+}
+
+.content {
+  color: #eee8d5;
+}
+
+.inbox-comment-message .message-author {
+  color: #2aa198;
+}
+
+.single-view-link {color: #fdf6e3 !important;}
+.single-view-link.blue {color: #268bd2 !important;}
+.single-view-link.brown {color: #859900 !important;}
+.single-view-link.dirty-green {color: #2aa198 !important;}
+.single-view-link.orange {color: #cb4b16 !important;}
+.single-view-link.pink {color: #d33682 !important;}
+.single-view-link.purple {color: #6c71c4 !important;}
+.single-view-link.yellow {color: #b58900 !important;}
